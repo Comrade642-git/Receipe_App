@@ -9,57 +9,10 @@ A full-stack application to organize recipes, plan meals, and generate shopping 
 - Save and load data from a MongoDB database  
 
 ### 🛠️ Tech Stack
-- **Frontend:** React, Redux Toolkit  
+- **Frontend:** React  
 - **Backend:** Node.js, Express.js, MongoDB  
 - **Database:** MongoDB with Mongoose  
-- **Payments (if applicable):** Stripe  
 
-### 📂 Project Structure
-```
-/backend
-  ├── models/       # Mongoose models
-  ├── routes/       # Express routes
-  ├── controllers/  # Business logic
-  ├── config/       # Database and environment configuration
-  ├── index.js      # Main backend file
-/frontend
-  ├── src/
-      ├── components/  # React components
-      ├── redux/       # Redux store and slices
-      ├── pages/       # Page components
-      ├── App.js       # Main App component
-```
-
-### 🔧 Installation & Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/recipe-organizer.git
-   cd recipe-organizer
-   ```
-2. Install dependencies:
-   ```bash
-   cd backend
-   npm install
-   cd ../frontend
-   npm install
-   ```
-3. Set up environment variables (`.env` in `backend/`):
-   ```env
-   MONGO_URI=your_mongo_connection_string
-   PORT=5000
-   ```
-4. Run the backend:
-   ```bash
-   cd backend
-   npm start
-   ```
-5. Run the frontend:
-   ```bash
-   cd frontend
-   npm start
-   ```
-6. Open the app in your browser:  
-   **http://localhost:3000**
 
 ### 🔥 API Endpoints (Example)
 | Method | Endpoint       | Description         |
@@ -69,13 +22,5 @@ A full-stack application to organize recipes, plan meals, and generate shopping 
 | PUT    | /api/recipes/:id | Update a recipe |
 | DELETE | /api/recipes/:id | Delete a recipe |
 
-### ⚡ Contributing
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature-name`)  
-3. Commit changes (`git commit -m "Add new feature"`)  
-4. Push to the branch (`git push origin feature-name`)  
-5. Open a Pull Request  
 
-### 📝 License
-This project is licensed under the MIT License.
 
